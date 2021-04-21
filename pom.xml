@@ -13,6 +13,15 @@
     <name>Bar</name>
     <description>A plugin primarily for anti cheat testing</description>
 
+    <!-- Repositories -->
+    <repositories>
+        <!-- This adds the Spigot Maven repository to the build -->
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
+
     <!-- Dependencies -->
     <dependencies>
 
